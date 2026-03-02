@@ -5,7 +5,7 @@ def get_requirements()->List[str]:
     """
     This function will return list of requirements
     """
-    requirement_list:List[str] = []
+    requirement_list:List[str] = []                    
     
     try:
         # Open and read the requirements.txt file
